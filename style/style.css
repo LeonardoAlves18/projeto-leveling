@@ -65,7 +65,7 @@ aside.social {
     z-index: 3;
     top: 92%;
     left: 0%;
-    box-shadow: 0px 3px  #2600ff;
+    box-shadow: 0px 2px  #2600ff;
     
     animation-name: social;
     animation-duration: 3s;
@@ -94,11 +94,11 @@ aside.social > ul.icons-social > li > a > img:hover {
 
 @keyframes social {
     from {
-        top: 92%;
-        left: -70%;
+        top: -5%;
+        
     }
 
     to {
-        top: 92%;
+        top: 5%;
     }
 }

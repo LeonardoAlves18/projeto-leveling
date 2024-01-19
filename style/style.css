@@ -22,7 +22,7 @@ main > div.personagem > div.conteudo {
     z-index: 1;
     top: 25%;
     left: 10%;
-    width: 370px;
+    max-width: 370px;
 }
 
 div.conteudo > h1 {

@@ -12,7 +12,7 @@ main > div.personagem {
 
 main > div.personagem > div.conteudo {
     gap: 2rem;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     max-width: 600px;

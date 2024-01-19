@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width: 650px) {
+@media (min-width: 160px) and (max-width: 650px) {
     main::after {
     width: 100%;
     background: linear-gradient(730deg, #000 35%, #00000000 65%) no-repeat;
@@ -7,7 +7,7 @@
 
 main > div.personagem {
     background-position: center;
-    background-size: cover;
+   
 }
 
 main > div.personagem > div.conteudo {

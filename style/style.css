@@ -1,0 +1,104 @@
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80vw;
+
+    background: linear-gradient(-233deg, #000 40%, #00000000 65%) no-repeat;
+}
+
+main > div.personagem {
+    height: 100vh;
+    background: black url(../img/1288655.png);
+    background-repeat: no-repeat;    
+    background-position: left top;
+}
+
+main > div.personagem > div.conteudo {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 10%;
+    width: 370px;
+}
+
+div.conteudo > h1 {
+    font-size: 2.5rem;
+    margin: 20px 0px 30px 0px;
+}
+
+div.conteudo > p {
+    line-height: 1.5rem;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+ul.icons {
+    position: fixed;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.322);
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+ ul.icons > li.sung > img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+ ul.icons > li.sung > img:hover{
+    box-shadow: 0px 0px 10px #2600ff;
+    transform: scale(1.2);
+}
+
+aside.social {
+    position: absolute;
+    z-index: 3;
+    top: 92%;
+    left: 0%;
+    box-shadow: 0px 3px  #2600ff;
+    
+    animation-name: social;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+}
+
+aside.social > ul.icons-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 5px;
+}
+
+aside.social > ul.icons-social > li > a > img {
+    width: 30px;
+    transition: 0.5s;
+}
+
+aside.social > ul.icons-social > li > a > img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+@keyframes social {
+    from {
+        top: 92%;
+        left: -70%;
+    }
+
+    to {
+        top: 92%;
+    }
+}

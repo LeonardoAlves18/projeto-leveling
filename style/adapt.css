@@ -69,7 +69,7 @@ main > div.personagem {
 
 main > div.personagem > div.conteudo {
     gap: 2rem;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     min-width: 360px;

@@ -49,6 +49,7 @@ aside.social {
     to {
         top: 94%;
         left: 50%;
+        transform: translate(-50%);
     }
 }
 

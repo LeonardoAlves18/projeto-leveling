@@ -30,7 +30,7 @@ ul.icons {
     position: absolute;
     flex-direction: row;
     left: 0;
-    height: 100px;
+    height: 120px;
     width: 100vw;
     z-index: 3;
 }
@@ -89,7 +89,7 @@ ul.icons {
     position: absolute;
     flex-direction: row;
     left: 0;
-    height: 100px;
+    height: 120px;
     width: 100vw;
     z-index: 3;
 }

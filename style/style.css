@@ -51,12 +51,12 @@ ul.icons {
     gap: 3rem;
 }
 
- ul.icons > li.sung > img{
-    width: 80px;
+ ul.icons > li > img{
+    width: 100px;
     border-radius: 50%;
 }
 
- ul.icons > li.sung > img:hover{
+ ul.icons > li > img:hover{
     box-shadow: 0px 0px 10px #2600ff;
     transform: scale(1.2);
 }

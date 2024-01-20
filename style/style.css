@@ -14,6 +14,7 @@ main > div.personagem {
     background: black url(../img/1288655.png);
     background-repeat: no-repeat;    
     background-position: left top;
+    background-size: cover;
 }
 
 main > div.personagem > div.conteudo {
@@ -22,7 +23,7 @@ main > div.personagem > div.conteudo {
     z-index: 1;
     top: 25%;
     left: 10%;
-    max-width: 370px;
+    max-width: 660px;
 }
 
 div.conteudo > h1 {
@@ -65,7 +66,6 @@ aside.social {
     z-index: 3;
     top: 92%;
     left: 0%;
-    box-shadow: 0px 2px  #2600ff;
     
     animation-name: social;
     animation-duration: 3s;
